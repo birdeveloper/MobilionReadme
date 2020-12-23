@@ -5,16 +5,9 @@
 *** Android DevOps Team
 -->
 <p align="center">
-  <h3 align="center">Android MVVM Base Project</h3>
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/1374px-Android_logo_2019.svg.png" width="100" height="100" alt="Android" align="center"></center>
+    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/1374px-Android_logo_2019.svg.png" width="100" height="100" alt="Android" align="center" style="display: block;margin: 0 auto;"></center>
   </a>
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" alt="mvvm-architecture" >
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
@@ -27,6 +20,13 @@
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" alt="mvvm-architecture" >
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  
 </p>
 
 
