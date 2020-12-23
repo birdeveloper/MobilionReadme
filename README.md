@@ -5,8 +5,9 @@
 *** Android DevOps Team
 -->
 <p align="center">
+  <h3 align="center">Android MVVM Base Project</h3>
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/1374px-Android_logo_2019.svg.png" width="100" height="100" alt="Android" >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/1374px-Android_logo_2019.svg.png" width="100" height="100" alt="Android" align="center">
   </a>
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" alt="mvvm-architecture" >
