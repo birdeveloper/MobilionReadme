@@ -31,31 +31,103 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
+<details open="close">
+  <summary>Kütüphaneler</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <details>
+  <summary>Kütüphaneler</summary>
+  <ol>
+    <li>
+      <a href="#kotlin">Kotlin</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#kotlin-jdk8">Kotlin JDK8</a></li>
+		<li><a href="#core-ktx">CoreKtx</a></li>
+        <li><a href="#kotlin-dsl">Kotlin DSL</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#ui-ux">UI / UX</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#app-compat">AppCompat</a></li>
+        <li><a href="#material">Material</a></li>
+        <li><a href="#constraint-layout">ConstraintLayout</a></li>
+        <li><a href="#swipe-refresh-layout">Swipe-Refresh-Layout</a></li>
+        <li><a href="#recyclerView">RecyclerView</a></li>
+        <li><a href="#fragment-ktx">FragmentKtx</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li>
+      <a href="#architecture-components">ARCHITECTURE COMPONENTS</a>
+      <ul>
+        <li><a href="#lifecycle-viewmodel-ktx">Lifecycle ViewModel Ktx</a></li>
+        <li><a href="#lifecycle-viewmodel">Lifecycle ViewModel</a></li>
+        <li><a href="#lifecycle-livedata-ktx">Lifecycle LiveData Ktx</a></li>
+        <li><a href="#lifecycle-runtime-ktx">Lifecycle Runtime Ktx</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#coroutines">COROUTINES</a>
+      <ul>
+        <li><a href="#coroutines-core">Coroutines Core</a></li>
+        <li><a href="#coroutines-android">Coroutines Android</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#work-manager">Work Manager</a>
+    </li>
+    <li>
+      <a href="#network">Network</a>
+      <ul>
+        <li><a href="#retrofit">Retrofit</a></li>
+        <li><a href="#retrofit-rxjava3">Retrofit RXJava3</a></li>
+        <li><a href="#retrofit-converter-moshi">Retrofit Converter Moshi</a></li>
+        <li><a href="#moshi">Moshi</a></li>
+        <li><a href="#moshi-kotlin">Moshi Kotlin</a></li>
+        <li><a href="#moshi-adapters">Moshi Adapters</a></li>
+        <li><a href="#logging-interceptor">Logging Interceptor</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#rx">RX</a>
+      <ul>
+        <li><a href="#rx-android">RXAndroid</a></li>
+        <li><a href="#rx-java">RXJava</a></li>
+        <li><a href="#rx-java3">Adapter RXJava3</a></li>
+        <li><a href="#rx-kotlin">RXKotlin</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#dagger-hilt">DAGGER HILT</a>
+      <ul>
+        <li><a href="#hilt-android">Hilt Android</a></li>
+        <li><a href="#hilt-viewModel">Hilt ViewModel</a></li>
+        <li><a href="#hilt-android-compiler">Hilt Android Compiler</a></li>
+        <li><a href="#hilt-compile">Hilt Compile</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#test-unit">TEST UNIT</a>
+      <ul>
+        <li> <a href="#junit4">JUNIT4</a></li>
+        <li><a href="#test-runner">Test Runner</a></li>
+        <li><a href="#espresso">Espresso</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#other">OTHER</a>
+      <ul>
+        <li> <a href="#hawk">HAWK</a></li>
+        <li><a href="#timber">Timber</a></li>
+        <li><a href="#google-location">Google Location</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
+    </li>
+  </ol>
+</details>
+
 
 
 
