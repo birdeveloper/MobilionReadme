@@ -25,15 +25,11 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://developer.android.com/topic/libraries/architecture/images/final-architecture.png" alt="mvvm-architecture" >
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  
 </p>
 
 
 
-<details open="close">
+<details open="close" style="margin-left:50px;margin-top:100px;margin-bottom:100px">
   <summary>Base Project</summary>
   <ul>
   <li>
@@ -215,6 +211,15 @@
         </details>
       </ul>
     </details>
+    <li>
+      <a href="#package">buildSrc</a>
+        <details>
+        <summary>java</summary>
+      <ul>
+        <li><a href="#buildsrc-dependencies">Dependencies</a></li>
+      </ul>
+        </details>
+    </li>
   </ul>
 </details>
     </li>
@@ -341,7 +346,7 @@
     </li>
     <li>
       <details>
-  <summary>Branc Modeli</summary>
+  <summary>Branch Modeli</summary>
   <ul>
     <li>
       <a href="#kotlin">Kotlin</a>
@@ -377,121 +382,65 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Proje Hakkında
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Dependency Injection ile Dagger Hilt ve Repository Pattern ile MVVM mimarisi kullanılarak oluşturulan temel proje.
+<br><br>
+Neden MVVM Kullanıyoruz?
+* Geleneksel UI dizaynında yeni çıkan; işlerimizi hızlandıran ve performansı arttırıcı yapılar nedeniyle MVVM kullanıyoruz.
+*  Veri modellerimiz tasarımlara ViewModel üzerinden ViewBinding ile kullanıcı bellek sızıntısına uğratmadan veri aktarımı yapabiliyoruz.
+* Databinding ile UI'da hızlı düzenlemeler yapılabiliyor. 
+* ViewBinding ile daha okunabilir, daha hızlı ve daha güvenli uygulamalar geliştirebiliyoruz.
+* RXJava - RXKotlin ile asenkron ve fonksiyon programlama yapabiliyoruz.<br><br>
+Büyük yapılar içim kullandığımız MVVM Tasarım Kalıbı çok fazla iş parçacığını düzenli ve hızlı yönetilebilir hale getiriyor.<br>
+Google ve Apple 2018’den itibaren MVVM'e geçilmesi öneriyor. 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
-
+Öğrenme ve uygulama açısından yararlı kaynanklara <a href="#kotlin-dsl">buradan</a> ulaşabilirsiniz.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Başlangıç
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Bu, projeyi kullanmak için ihtiyaç duyduğunuz şeylerin nasıl listeleneceğine ve bunların nasıl kurulacağına dair bir örnektir.<br>
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+### Hazırlık
+Git'i indirip kurun;
+<a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
   ```sh
-  npm install npm@latest -g
+  $ brew install git 
   ```
+### Kurulum
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Depoyu yerel olarak kopyalayıp bağlayın, böylece yaptığınız güncellemeleri gönderebilir ve başkalarının yaptığı değişiklikleri alabilirsiniz
+2. Repoyu kopyalayın
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://rgorkemkara@bitbucket.org/mobiliondevelopment/001_android_mobilionbase.git
    ```
-3. Install NPM packages
+   veya
    ```sh
-   npm install
+   git clone ssh://git@bitbucket.org:mobiliondevelopment/001_android_mobilionbase.git 
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+3. Android Studio'yu açın ve terminalde şunu çalıştırın.
+   ```sh
+   ./gradlew clean build
    ```
-
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Kullanım
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+ 1. <a href="#buildsrc-dependencies">Dependencies</a>'i açın.
+   ```sh
+   const val applicationId = "com.mobilion.baseproject" 
+   ```
+kısmını projenize göre değiştirin.
+
+2. <a href="#package">Package</a>'in içerisinde 'baseproject' paketini projenize göre değiştirin.
+3. <a href="#android-manifest">Manifest</a> dosyasını açın packageyi düzenleyin.</a>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: http://13.73.160.196/assets/img/logo.png
